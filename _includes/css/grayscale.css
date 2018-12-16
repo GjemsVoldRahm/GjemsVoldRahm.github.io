@@ -28,6 +28,7 @@ h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+	column-span: all;
 }
 
 p {
@@ -252,16 +253,152 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.asd {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.style_sec1.container.content-section.text-center {
+    text-align: justify;
+    text-justify: inter-word;
+	width: 100%;
+    padding: 50px 0;
+    color: #fff;
+	background-image: linear-gradient({{ site.color.template_sec1 }} 90%, {{ site.color.template_sec2 }});
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	vertical-align: middle;
+}
+
+.style_sec2.container.content-section.text-center {
+    text-align: justify;
+    text-justify: inter-word;
+    width: 100%;
+    padding: 50px 0;
+    color: {{ site.color.primary-dark }};
+	background-image: linear-gradient({{ site.color.template_sec2 }} 90%, {{ site.color.template_sec1 }});
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.style_sec3.container.content-section.text-center {
+    text-align: justify;
+    text-justify: inter-word;
+    width: 100%;
+    padding: 50px 0;
+    color: #ffffff;
+	background: rgb(160, 180, 200);
+	background-image: linear-gradient({{ site.color.template_sec1 }}, {{ site.color.primary-dark }} 10%);
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  color: #ffffff;#{{ site.color.primary-dark }};
+}
+
+tr:nth-child(even) {
+  background-color: #F5B7B1;#rgb(255, 135, 93);#rgb(255,224,213);#rgb(255, 190, 167);
+}
+
+tr:nth-child(odd) {
+  background-color: #E74C3C;#rgb(255, 190, 167);
+}
+
+.columntext {
+  column-count: 2;
+  column-width: 300px;
+}
+
+.style_sec1.container.content-section.text-center.pie-charts {
+    text-align: justify;
+    text-justify: inter-word;
+	width: 100%;
+    padding: 50px 0;
+    color: #fff;
+	background: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	vertical-align: middle;
+}
+
+.column-pie-chart {
+	float: left;
+	padding: 20px;
+    width: 33%;
+}
+
+.img-round {
+	border-radius: 50%;
+}
+
+.column-small {
+  float: left;
+  width: 40%;
+}
+
+.column-small-middle {
+  float: left;
+  width: 20%;
+}
+
+.column-large {
+  float: left;
+  width: 50%;
+}
+
+.column-large-hv {
+  float: left;
+  width: 50%;
+  color: {{ site.color.primary-dark }};
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background-color: {{ site.color.template_sec1 }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.pie-charts-trinket-io {
+  background-color: #fff;
+  width:500px; /* 20% of the viewport width */
+  height: 500px;
+  position: relative; /* If you want text inside of it */
 }
 
 #map {
