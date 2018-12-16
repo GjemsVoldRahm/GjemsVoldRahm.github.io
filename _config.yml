@@ -8,7 +8,7 @@ description: "Data story on fake news for the class CS401 - Applied Data Analysi
 color:
   primary-dark: '#000000'
   # RGB code: (33,154,179)
-  links: '#ed1c24' #'#219ab3'
+  links: '#219ab3' #'#ed1c24'
   template_sec1: rgb(173, 190, 207)
   template_sec2: rgb(225, 225, 225)
 

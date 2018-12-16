@@ -315,15 +315,15 @@ td, th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
-  color: #ffffff;#{{ site.color.primary-dark }};
+  color: #fff;#{{ site.color.primary-dark }};
 }
 
 tr:nth-child(even) {
-  background-color: #F5B7B1;#rgb(255, 135, 93);#rgb(255,224,213);#rgb(255, 190, 167);
+  background-color: rgb(75, 75, 75);#rgb(255, 135, 93);#rgb(255,224,213);#rgb(255, 190, 167);
 }
 
 tr:nth-child(odd) {
-  background-color: #E74C3C;#rgb(255, 190, 167);
+  background-color: darkslategray;#rgb(255, 190, 167);
 }
 
 .columntext {
